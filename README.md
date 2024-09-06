@@ -1,14 +1,15 @@
-# PW3---Repo-REACT
+# Fron-end E-commerce para venda de roupas (projeto PW3 Etec)
 
-# Nome do Projeto
+Este projeto será desenvolvido em React, e servirá para consolidar o conteúdo aprendido em aula.
 
-Uma breve descrição do que seu projeto faz e por que ele é útil. Inclua qualquer detalhe importante sobre o propósito e a função principal do projeto.
+## Funcionalidades do Site
 
-## Funcionalidades
-
-- **Funcionalidade 1**: Descrição da funcionalidade 1.
-- **Funcionalidade 2**: Descrição da funcionalidade 2.
-- **Funcionalidade 3**: Descrição da funcionalidade 3.
+- **Funcionalidade 1**: Cadastro de usuário.
+- **Funcionalidade 2**: Login.
+- **Funcionalidade 3**: Seções divididas por categoria de produto.
+- **Funcionalidade 3**: Mecanismo de pesquisa por nome do produto.
+- **Funcionalidade 3**: Carrinho para adicionar itens.
+- **Funcionalidade 3**: Finalizar compra.
 
 ## Instalação
 
