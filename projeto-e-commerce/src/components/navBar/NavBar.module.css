@@ -1,0 +1,31 @@
+.navcontainer{
+    margin-left: 0px;
+    margin-top: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #343434;
+    padding: 1em;
+}
+
+.logoicon{
+    color: #fff;
+    text-decoration: none;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    flex-direction: row;
+    padding-right: 6em;
+}
+
+.listitem{
+    color: #fff;
+    text-decoration: none;
+    padding: .5em 1em .5em 1em;
+}

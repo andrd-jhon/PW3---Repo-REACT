@@ -1,0 +1,9 @@
+.footercontainer{
+    margin-bottom: 0;
+}
+
+.iconslist{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
