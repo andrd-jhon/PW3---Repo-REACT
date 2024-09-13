@@ -5,10 +5,10 @@ import style from './Footer.module.css'
 const Footer = () => {
     return (
         <>
-           <div class={style.footercontainer}>
+           <div className={style.footercontainer}>
             <nav>
                 <div >
-                    <ul class={style.iconslist}>
+                    <ul className={style.iconslist}>
                         <li>
                             <a href="">Instagram</a>
                         </li>

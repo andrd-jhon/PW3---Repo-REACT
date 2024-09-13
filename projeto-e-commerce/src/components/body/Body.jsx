@@ -1,11 +1,16 @@
 import style from './Body.module.css'
-
+import Produtos from '../produtos/Produtos'
 const Body = () => {
     return (
         <>
-            <body class={style.body}>
-                <p class={style.produto}>MEU PRODUTO AQUI</p>
-            </body>
+            <div className={style.body}>
+                <Produtos/>
+                <Produtos/>
+                <Produtos/>
+                <Produtos/>
+                <Produtos/>
+                <Produtos/>
+            </div>
         </>
     )
 }

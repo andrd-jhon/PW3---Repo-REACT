@@ -1,27 +1,30 @@
 import React from 'react'
 import style from './NavBar.module.css'
-
+import {Link} from 'react-router-dom'
 const NavBar = () => {
     return (
         <>
-           <div class={style.navcontainer}>
-            <nav class={style.navbar}>
+           <div className={style.navcontainer}>
+            <nav className={style.navbar}>
                 <a href="">
-                    <p class={style.logoicon}>ICONE LOGO</p>
+                    <p className={style.logoicon}>ICONE LOGO</p>
                 </a>
                 <div >
-                    <ul class={style.list}>
+                    <ul className={style.list}>
                         <li>
-                            <a href="" class={style.listitem}>Home</a>
+                            <a href="" className={style.listitem}>Home</a>
                         </li>
                         <li>
-                            <a href="" class={style.listitem}>Lançamentos</a>
+                            <Link to="/Lancamentos" className={style.listitem}>Lançamentos</Link>
                         </li>
                         <li>
-                            <a href="" class={style.listitem}>Todos os Produtos</a>
+                            <a href="" className={style.listitem}>Todos os Produtos</a>
                         </li>
                         <li>
-                            <a href="" class={style.listitem}>Redes Sociais</a>
+                            <a href="" className={style.listitem}>Redes Sociais</a>
+                        </li>
+                        <li>
+                            <Link to="/Cadastro" className={style.listitem}>Cadastrar Itens</Link>
                         </li>
                     </ul>
                 </div>
