@@ -1,7 +1,17 @@
 .body{
     height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .produto{
     padding: 200px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }

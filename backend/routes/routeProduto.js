@@ -1,4 +1,4 @@
-// const userModel = require('../model/userModel')
+const roupaModel = require('../models/roupaModel')
 const express = require('express')
 const router = express.Router()
 // const validation = require('../utils/validation');
@@ -23,35 +23,37 @@ router.get('/', (req, res)=>{
 
 });
 
-router.get('/produtos', (req, res) => {
-    res.status(200).json(produtos)
+router.get('/roupas', (req, res) => {
+    // res.status(200).json(produtos)
     // console.log(produtos)
 
-    // userModel.findAll(/*{where:{userEmail: "joao3@gmail.com"}}*/)
-    // .then(
-    //     (response) => {
-    //         return res.status(201).json(
-    //             {
-    //                 errorStatus:false,
-    //                 mensageStatus:'USUARIOS LISTADOS COM SUCESSO',
-    //                 data:response
-    //             }
-    //         )
-    //     }
-    // )
-    // .catch((error)=>{
-    //     return res.status(400).json(
-    //         {
-    //             errorStatus:true,
-    //             mensageStatus:'HOUVE UM ERRO AO LISTAR OS LIVROS',
-    //             errorObject:error
-    //         }
-    //     );
-    // });
-    // console.log('listando todos os usuarios')
+    roupaModel.findAll(/*{where:{userEmail: "joao3@gmail.com"}}*/)
+    
+    .then(
+        (response) => {
+            console.log(response)
+            return res.status(201).json(
+                {
+                    errorStatus:false,
+                    mensageStatus:'USUARIOS LISTADOS COM SUCESSO',
+                    data:response
+                }
+            )
+        }
+    )
+    .catch((error)=>{
+        return res.status(400).json(
+            {
+                errorStatus:true,
+                mensageStatus:'HOUVE UM ERRO AO LISTAR OS LIVROS',
+                errorObject:error
+            }
+        );
+    });
+    console.log('listando roupas')
 })
 
-router.post('/usuarios', async (req, res)=>{
+router.post('/roupas', async (req, res)=>{
 
     res.status(200).send()
 

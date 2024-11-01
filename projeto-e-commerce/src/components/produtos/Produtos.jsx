@@ -1,13 +1,19 @@
-const Produtos = () => {
+import React from 'react'
+import style from './Produtos.module.css'
+import {Link} from 'react-router-dom'
+
+const Produtos = ({nomeProduto, descricaoProduto, precoProduto}) => {
     return (
         <>
-            <div>
+            <div className={style.container}>
+            <div className={style.produto}>
                 <img src="" alt="" />
                 <div>
-                    <label htmlFor="">Nome do Produto</label>
-                    <p>descrição produto</p>
-                    <span>Preço</span>
+                    <label htmlFor="">{nomeProduto}</label>
+                    <p>{descricaoProduto}</p>
+                    <span>{precoProduto}</span>
                 </div>
+            </div>
             </div>
         </>
     )

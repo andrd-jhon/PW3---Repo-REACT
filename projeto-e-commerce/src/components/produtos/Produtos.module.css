@@ -1,0 +1,11 @@
+.produto{
+    margin: 5px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    background-color: #969090;
+    padding: 1em;
+    width: 10vw;
+    height: 35vh;
+}
+

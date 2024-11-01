@@ -25,13 +25,13 @@ function App() {
   })
   return (
     <>
-      {/* <BrowserRouter>
+      <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />}/>
             <Route path="/Lancamentos" element={<Lancamentos />} />
             <Route path="/Cadastro" element={<Cadastro/>} />
           </Routes>
-      </BrowserRouter> */}
+      </BrowserRouter>
     </>
   );
 }
