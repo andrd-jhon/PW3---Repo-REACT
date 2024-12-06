@@ -7,7 +7,7 @@ const Body = () => {
         <>
             <div className={style.container}>
                 {/* <Produtos
-                    nomeProduto={"GEOVANNA FEIOSA"}
+                    nomeProduto={"GEOVANNA LINDONA"}
                 />
                 <Produtos/>
                 <Produtos/>

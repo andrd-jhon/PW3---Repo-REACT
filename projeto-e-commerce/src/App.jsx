@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import axios from 'axios'
+// import axios from 'axios'
 import './App.css'
 import Home from './pages/Home'
 import Lancamentos from './pages/Lancamentos'
@@ -9,9 +9,9 @@ import Cadastro from './pages/Cadastro'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
-const api = axios.create ({
-  baseURL: 'http://localhost:3001'
-})
+// const api = axios.create ({
+//   baseURL: 'http://localhost:3001'
+// })
 
 
 function App() {
@@ -20,9 +20,9 @@ function App() {
 
 
 
-  api.get('/produtos').then((response) => {
-    console.log(response)
-  })
+  // api.get('/produtos').then((response) => {
+  //   console.log(response)
+  
   return (
     <>
       <BrowserRouter>
